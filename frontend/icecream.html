@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy - Futuristic E-commerce</title>
+    <link rel="stylesheet" href="bakery.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="FirstAid.html">FirstAid</a></li>
+            <li><a href="Essentials.html">Essentials</a></li>
+            <li><a href="stationary.html">Stationary</a></li>
+            <li class="dropdown">
+                <a href="#">Food</a>
+                <ul class="dropdown-content">
+                    <li><a href="bakery.html">Bakery</a></li>
+                    <li><a href="snacks.html">Snacks</a></li>
+                    <li><a href="candy.html">Candy</a></li>
+                    <li><a href="icecream.html">Ice Cream</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Drink</a>
+                <ul class="dropdown-content">
+                    <li><a href="water.html">Water</a></li>
+                    <li><a href="soda.html">Soda</a></li>
+                    <li><a href="juice.html">Juice</a></li>
+                </ul>
+            </li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="Profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+    <!-- Product Listings -->
+    <section class="product-listings">
+        <h3>Bakery Products</h3>
+        <div class="product-grid">
+            <!-- Product Cards -->
+            <!-- Repeat this block for each product -->
+            <div class="product-card">
+                <img src="iceimg\cccDo.png" alt="Product 1">
+                <h3>Product Name 1</h3>
+                <p>Description of Product 1.</p>
+                <p class="price">$10.00</p>
+                <button class="add-to-cart" data-product-id="1" data-product-name="Product Name 1" data-product-price="10.00">Add to Cart</button>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="iceimg\cocofbrw.png" alt="Product 2">
+                <h3>Product Name 2</h3>
+                <p>Description of Product 2.</p>
+                <p class="price">$12.00</p>
+                <button class="add-to-cart" data-product-id="2" data-product-name="Product Name 2" data-product-price="12.00">Add to Cart</button>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="iceimg\Halfbaked.png" alt="Product 3">
+                <h3>Product Name 3</h3>
+                <p>Description of Product 3.</p>
+                <p class="price">$15.00</p>
+                <button class="add-to-cart" data-product-id="3" data-product-name="Product Name 3" data-product-price="15.00">Add to Cart</button>
+            </div>
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="iceimg\strachess.png" alt="Product 4">
+                <h3>Product Name 4</h3>
+                <p>Description of Product 4.</p>
+                <p class="price">$8.00</p>
+                <button class="add-to-cart" data-product-id="4" data-product-name="Product Name 4" data-product-price="8.00">Add to Cart</button>
+            </div>
+                <!-- Product 5 -->
+            <div class="product-card">
+                <img src="iceimg\usdrm.png" alt="Product 5">
+                <h3>Product Name 5</h3>
+                <p>Description of Product 5.</p>
+                <p class="price">$9.00</p>
+                <button class="add-to-cart" data-product-id="5" data-product-name="Product Name 5" data-product-price="9.00">Add to Cart</button>
+            </div>
+            <!-- Add more product cards as needed -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Futuristic E-commerce. All rights reserved.</p>
+    </footer>
+    <!-- Include the bakery.js script -->
+    <script src="bakery.js"></script>
+</body>
+</html>
+

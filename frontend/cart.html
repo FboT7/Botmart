@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <a href="index.html">MyCart</a>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="FirstAid.html">FirstAid</a></li>
+            <li><a href="Essentials.html">Essentials</a></li>
+            <li><a href="stationary.html">Stationary</a></li>
+            <li class="dropdown">
+                <a href="#">Food</a>
+                <ul class="dropdown-content">
+                    <li><a href="bakery.html">Bakery</a></li>
+                    <li><a href="#">Snacks</a></li>
+                    <li><a href="#">Candy</a></li>
+                    <li><a href="#">Ice Cream</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Drink</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Water</a></li>
+                    <li><a href="#">Soda</a></li>
+                    <li><a href="#">Juice</a></li>
+                </ul>
+            </li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="Profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+    <!-- Cart Section -->
+    <section class="cart-container">
+        <h1>Your Shopping Cart</h1>
+        <div id="cart-items"></div>
+        <div id="cart-total"></div>
+        <button id="place-order">Place Order</button>
+    </section>
+    <section id="map" style="height: 500px; width: 100%;"></section>
+    <script src="cart.js"></script>
+</body>
+</html>

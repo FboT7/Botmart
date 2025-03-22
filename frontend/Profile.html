@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="FirstAid.html">FirstAid</a></li>
+            <li><a href="Essentials.html">Essentials</a></li>
+            <li><a href="stationary.html">Stationary</a></li>
+            <li class="dropdown">
+                <a href="#">Food</a>
+                <ul class="dropdown-content">
+                    <li><a href="bakery.html">Bakery</a></li>
+                    <li><a href="#">Snacks</a></li>
+                    <li><a href="#">Candy</a></li>
+                    <li><a href="#">Ice Cream</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Drink</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Water</a></li>
+                    <li><a href="#">Soda</a></li>
+                    <li><a href="#">Juice</a></li>
+                </ul>
+            </li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+    <!-- Profile Section -->
+    <section class="profile-section">
+        <h1>Your Profile</h1>
+        <div class="profile-content">
+            <!-- User Information -->
+            <div class="user-info">
+                <h2>Personal Information</h2>
+                <p><strong>Name:</strong> John Doe</p>
+                <p><strong>Email:</strong> john.doe@example.com</p>
+                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Address:</strong> 123 Main St, Anytown, USA</p>
+                <button class="edit-btn">Edit Information</button>
+                <button class="save-btn">save Information</button>
+            </div>
+
+            <!-- Past Orders -->
+            <div class="past-orders">
+                <h2>Past Orders</h2>
+                <ul>
+                    <li>
+                        <p><strong>Order #12345</strong> - $25.00</p>
+                        <p><em>Placed on 01/15/2025</em></p>
+                    </li>
+                    <li>
+                        <p><strong>Order #12344</strong> - $15.50</p>
+                        <p><em>Placed on 12/30/2024</em></p>
+                    </li>
+                    <!-- More orders can be added here -->
+                </ul>
+            </div>
+
+            <!-- Settings -->
+            <div class="settings">
+                <h2>Settings</h2>
+                <button class="settings-btn">Change Password</button>
+                <button class="settings-btn">Manage Payment Methods</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="profile.js"></script>
+</body>
+</html>
