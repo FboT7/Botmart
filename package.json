@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/index.js",   // Starts your Node.js backend server
-    "frontend-build": "cd frontend && npm run build",  // Builds your React app
-    "frontend-start": "cd frontend && npm start",  // Starts your React app locally
-    "build": "npm run frontend-build && npm run backend-build",  // Builds both frontend and backend
-    "backend-build": "cd backend && npm install",  // Install dependencies for backend
+    "start": "node backend/index.js",   
+    "frontend-build": "cd frontend && npm run build", 
+    "frontend-start": "cd frontend && npm start", 
+    "build": "npm run frontend-build && npm run backend-build", 
+    "backend-build": "cd backend && npm install", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
@@ -19,9 +20,9 @@
     "mongoose": "^8.11.0",
     "multer": "^1.4.5-lts.1",
     "stripe": "^17.7.0",
-    "react": "^17.0.0",  // Frontend React dependency
+    "react": "^17.0.0",  
     "react-dom": "^17.0.0",
-    "react-scripts": "^4.0.0"  // React app build tool
+    "react-scripts": "^4.0.0" 
   },
   "devDependencies": {
     "react-scripts": "^4.0.0"
